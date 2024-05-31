@@ -1,0 +1,200 @@
+body {
+  background-image: url("images/hartjes2.gif");
+  background-color: rgb(238, 220, 245);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 9rem;
+  margin-left: 8rem;
+  margin-right: 0rem;
+  margin-block-end: 0em;
+  text-align: left;
+  font-family: "Rubik Bubbles", system-ui;
+  text-shadow: 2px 2px 1px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+/* met behulp van sam */
+.person {
+  position: relative;
+  width: 50vw;
+  height: 33vw;
+}
+
+.person img {
+  position: absolute;
+  margin-right: 2px;
+  margin-left: 0.5rem;
+  margin-bottom: 0rem;
+  margin-top: 7rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+
+.options {
+  background-color: rgba(241, 116, 162, 0.138);
+  margin-right: 5rem;
+  padding: 1rem 2rem;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttons_row {
+  background-color: rgba(255, 0, 187, 0.138);
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.hidden {
+  visibility: hidden;
+}
+
+#changeBackground {
+  padding: 1rem;
+  background-color: rgb(178, 106, 255);
+  font-size: x-large;
+  font-family: fantasy;
+  border-radius: 1rem;
+}
+
+#randomLook {
+  margin-top: 5rem;
+  margin-right: 0rem;
+  background-color: rgb(202, 47, 240);
+  font-size: x-large;
+  font-family: fantasy;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#oogschaduw_1 {
+  background-color: rgb(184, 117, 86);
+}
+#oogschaduw_2 {
+  background-color: rgb(229, 138, 93);
+}
+#oogschaduw_3 {
+  background-color: rgb(120, 78, 54);
+}
+#oogschaduw_4 {
+  background-color: rgb(96, 26, 52);
+}
+#oogschaduw_5 {
+  background-color: rgb(69, 11, 78);
+}
+
+#blush_1 {
+  background-color: rgb(230, 84, 201);
+}
+#blush_2 {
+  background-color: rgb(237, 140, 81);
+}
+#blush_3 {
+  background-color: rgb(181, 52, 52);
+}
+
+#lipstick_1 {
+  background-color: rgb(227, 101, 244);
+}
+#lipstick_2 {
+  background-color: rgb(172, 20, 20);
+}
+#lipstick_3 {
+  background-color: rgb(108, 56, 99);
+}
+#lipstick_4 {
+  background-color: rgb(78, 11, 22);
+}
+
+#mascara_1 {
+  background-color: rgb(0, 0, 0);
+}
+
+#mascara_2 {
+  background-color: rgb(65, 67, 67);
+}
+
+#mascara_3 {
+  background-color: rgb(71, 46, 46);
+}
+
+#mascara_4 {
+  background-color: rgb(64, 18, 43);
+}
+
+#liner_1 {
+  background-color: black;
+}
+
+#liner_2 {
+  background-color: rgb(120, 78, 54);
+}
+
+#liner_3 {
+  background-color: dimgrey;
+}
+
+#oog_1 {
+  background-color: rgb(120, 78, 54);
+}
+
+#oog_2 {
+  background-color: darkgreen;
+}
+
+#oog_3 {
+  background-color: cornflowerblue;
+}
+
+#haar_1 {
+  background-color: black;
+}
+
+#haar_2 {
+  background-color: rgb(120, 78, 54);
+}
+
+#haar_4 {
+  background-color: gold;
+}
+
+#wenkbrauw_1 {
+  background-color: rgb(0, 0, 0);
+}
+
+#wenkbrauw_2 {
+  background-color: rgb(120, 78, 54);
+}
+
+#wenkbrauw_3 {
+  background-color: gold;
+}

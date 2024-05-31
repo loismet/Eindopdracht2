@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;300&family=Bungee&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Poiret+One&family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spelstart</title>
+  </head>
+
+  <body>
+    <h1>Create your look</h1>
+    <main>
+      <!-- bron basis popetje: https://www.freepik.com/vectors/furrowed-eyebrows/4 -->
+      <section class="person">
+        <img id="facebase" src="images/facebase.png" alt="basis" />
+        <img id="blush" src="images/blush-1.png" alt="blush1" />
+        <img id="lippen" src="images/lippen-1.png" alt="lipstart" />
+        <img id="oogschaduw" src="images/oogschaduw-1.png" alt="schaduw-1" />
+        <img id="wenk" src="images/wenk-1.png" alt="wenk-zwart" />
+        <img id="haar" src="images/haar-1.png" alt="haar-zwart" />
+        <img id="wimpers" src="images/wimpers-1.png" alt="wimpers-zwart" />
+        <img id="liner" src="images/liner-1.png" alt="liner-zwart" />
+        <img id="oog" src="images/oog-1.png" alt="oog-bruin" />
+      </section>
+
+      <section>
+        <button id="changeBackground">Change background</button>
+        <button id="randomLook">Random Make-up look</button>
+
+        <!-- bron iconen: https://www.freepik.com/free-vector/beauty-accessories-flat-design-pastel-colors_910130.htm#fromView=image_search&page=1&position=51&uuid=b3ce1a4c-4a08-4525-ab78-e19a4945b570 
+  -->
+      </section>
+      <section class="options">
+        <section class="buttons_row">
+          <img
+            src="images/oogschduw.png"
+            alt="oogschaduwdoosje"
+            id="oogschaduwImage"
+          />
+
+          <div class="buttons hidden" id="oogschaduwButtons">
+            <button
+              id="oogschaduw_1"
+              data-color="1"
+              data-categorie="oogschaduw"
+            ></button>
+            <button
+              id="oogschaduw_2"
+              data-color="2"
+              data-categorie="oogschaduw"
+            ></button>
+            <button
+              id="oogschaduw_3"
+              data-color="3"
+              data-categorie="oogschaduw"
+            ></button>
+            <button
+              id="oogschaduw_4"
+              data-color="4"
+              data-categorie="oogschaduw"
+            ></button>
+            <button
+              id="oogschaduw_5"
+              data-color="5"
+              data-categorie="oogschaduw"
+            ></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img
+            src="images/blushicon-goed.png"
+            alt="blushdoosje"
+            id="blushImage"
+          />
+
+          <div class="buttons hidden" id="blushButtons">
+            <button id="blush_1" data-categorie="blush" data-color="1"></button>
+            <button id="blush_2" data-categorie="blush" data-color="2"></button>
+            <button id="blush_3" data-categorie="blush" data-color="3"></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img
+            src="images/lipstickicon-goed.png"
+            alt="lipstick"
+            id="lipstickImage"
+          />
+
+          <div class="buttons hidden" id="lipstickButtons">
+            <button
+              id="lipstick_1"
+              data-color="1"
+              data-categorie="lippen"
+            ></button>
+            <button
+              id="lipstick_2"
+              data-color="2"
+              data-categorie="lippen"
+            ></button>
+            <button
+              id="lipstick_3"
+              data-color="3"
+              data-categorie="lippen"
+            ></button>
+            <button
+              id="lipstick_4"
+              data-color="4"
+              data-categorie="lippen"
+            ></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img
+            src="images/mascaraicon-goed.png"
+            alt="mascara"
+            id="mascaraImage"
+          />
+
+          <div class="buttons hidden" id="mascaraButtons">
+            <button
+              id="mascara_1"
+              data-categorie="wimpers"
+              data-color="1"
+            ></button>
+            <button
+              id="mascara_2"
+              data-categorie="wimpers"
+              data-color="2"
+            ></button>
+            <button
+              id="mascara_3"
+              data-categorie="wimpers"
+              data-color="3"
+            ></button>
+            <button
+              id="mascara_4"
+              data-categorie="wimpers"
+              data-color="4"
+            ></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img
+            src="images/eyelinericon-goed.png"
+            alt="eyeliner"
+            id="linerImage"
+          />
+
+          <div class="buttons hidden" id="linerButtons">
+            <button id="liner_1" data-categorie="liner" data-color="1"></button>
+            <button id="liner_2" data-categorie="liner" data-color="2"></button>
+            <button id="liner_3" data-categorie="liner" data-color="3"></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img src="images/oogicon-goed.png" alt="oog" id="oogImage" />
+
+          <div class="buttons hidden" id="oogButtons">
+            <button id="oog_1" data-categorie="oog" data-color="1"></button>
+            <button id="oog_2" data-categorie="oog" data-color="2"></button>
+            <button id="oog_3" data-categorie="oog" data-color="3"></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img src="images/haaricon-goed.png" alt="haar" id="haarImage" />
+
+          <div class="buttons hidden" id="haarButtons">
+            <button id="haar_1" data-categorie="haar" data-color="1"></button>
+            <button id="haar_2" data-categorie="haar" data-color="2"></button>
+            <button id="haar_4" data-categorie="haar" data-color="3"></button>
+          </div>
+        </section>
+
+        <section class="buttons_row">
+          <img src="images/wenk-bruin1.png" alt="wenkbrauw_1" id="wenkImage" />
+
+          <div class="buttons hidden" id="wenkButtons">
+            <button
+              id="wenkbrauw_1"
+              data-categorie="wenk"
+              data-color="1"
+            ></button>
+            <button
+              id="wenkbrauw_2"
+              data-categorie="wenk"
+              data-color="2"
+            ></button>
+            <button
+              id="wenkbrauw_3"
+              data-categorie="wenk"
+              data-color="3"
+            ></button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
